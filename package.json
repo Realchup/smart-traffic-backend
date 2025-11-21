@@ -1,17 +1,33 @@
 {
-  "name": "backend",
+  "name": "smart-traffic-backend",
   "version": "1.0.0",
-  "description": "Smart Traffic Backend",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.7.0",
+    "mongoose": "^8.20.0",
+    "node-fetch": "^3.3.2"
   },
   "engines": {
     "node": "20"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Realchup/smart-traffic-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Realchup/smart-traffic-backend/issues"
+  },
+  "homepage": "https://github.com/Realchup/smart-traffic-backend#readme"
 }
